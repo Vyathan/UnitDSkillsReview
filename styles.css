@@ -16,6 +16,7 @@
 .container {
    background-color: black;
    text-align: center;
+   max-width: 640px;
 }
 
 /* headings */
@@ -24,6 +25,8 @@ header {
 }
 header div {
    color: white;
+   width: 70%;
+   border: 3px, red;
 }
 header p {
    color: black;
