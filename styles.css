@@ -2,10 +2,15 @@
    Big J's Deep Dish Pizza style sheet 
    Filename: styles.css
 
-   Author:   
-   Date:     
+   Author: Matt Brundage II  
+   Date: 9/19/21    
    HTML5 and CSS3 Illustrated Unit D, Skills Review
  */
+
+ /* reset styles */
+ article, body, div, footer, header, h1, h2, h3, p {
+    border-width: 0;
+ }
 
 /* body and page container */
 .container {
