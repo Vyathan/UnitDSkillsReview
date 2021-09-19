@@ -23,11 +23,18 @@
    margin-bottom: 0;
    margin-left: auto;
    margin-right: auto;
+   position: relative;
+   top: 11em;
 }
 
 /* headings */
 header {
    background-color: black;
+   width: 100%;
+   max-width: 640px;
+   position: fixed;
+   top: 0;
+   /* z-index: -1; */
 }
 header div {
    color: white;
@@ -46,9 +53,11 @@ header p {
 }
 header p.established {
    width: 25%;
+   float: left;
 }
 header p.award {
    width: 25%;
+   float: right;
 }
 header p.options {
    width: 25%;
@@ -62,6 +71,21 @@ header p.phone {
    margin-bottom: 0.4em;
    margin-left: auto;
    margin-right: auto;
+   clear: both;
+}
+header p.pointright {
+   color: red;
+   background-color: black;
+   position: absolute;
+   top: 0.4em;
+   left: 0.4em;
+}
+header p.pointleft {
+   color: red;
+   background-color: black;
+   position: absolute;
+   top: 0.4em;
+   right: 0.4em;
 }
 
 /* main content */
