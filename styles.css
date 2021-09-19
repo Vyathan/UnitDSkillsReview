@@ -75,6 +75,15 @@ article {
    padding-left: 1em;
    padding-right: 1em;
 }
+article p {
+   margin-bottom: 0.5em;
+}
+article p.myo {
+   margin-left: 1em;
+}
+article p.list {
+   margin-left: 2em;
+}
 h3 {
    color: red;
    margin-top: 1em;
